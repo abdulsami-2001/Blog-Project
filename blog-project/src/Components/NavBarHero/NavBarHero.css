@@ -1,0 +1,48 @@
+.menuNavbar a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #565673;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.navbar{
+    padding: 0px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.searchContainer{
+    display: flex;
+}
+
+.searchInput{
+    position: relative;
+    border: none;
+    width: 0;
+    transition: width 0.8s ease-in;
+    bottom: 12px;
+}
+
+.searchInput.active{
+    width: 170px;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.button { 
+    background-color: transparent;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.searchIcon{
+    cursor: pointer;
+}
